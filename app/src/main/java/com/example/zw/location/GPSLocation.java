@@ -109,6 +109,7 @@ public class GPSLocation {
         }
 
         System.out.println("<------------------过了10秒------------------>");
+        Toast.makeText(mContext,"过了10秒种",Toast.LENGTH_SHORT).show();
         //获得位置服务的管理对象
         LocationManager locationManager = (LocationManager)mContext.getSystemService(Context.LOCATION_SERVICE);
         // 通过GPS获取定位的位置数据

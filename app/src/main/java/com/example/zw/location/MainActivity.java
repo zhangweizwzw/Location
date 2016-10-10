@@ -6,6 +6,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.app.Activity;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
     TextView textview;
